@@ -1,0 +1,334 @@
+body {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #747474;
+    font-weight: 400;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  li a {
+    text-decoration: none;
+  }
+  
+  h1 {
+    font-size: 34px;
+    color: #00b39b;
+    font-weight: 100;
+  }
+  
+ 
+  
+  .doc-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    padding: 20px 0;
+    z-index: 1;
+  }
+  
+  .logo-doc {
+    width: 268px;
+    height: 33px;
+  }
+  
+  .doc-menu {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .doc-menu li {
+    padding: 0 5px;
+  }
+  
+  .doc-menu .active-link a {
+    color: #00b39b;
+  }
+  .doc-menu li a {
+    color: #ababab;
+    font-size: 15px;
+    padding: 10px;
+  }
+  
+  .doc-menu li a:hover {
+    color: #00b39b;
+  }
+  
+  .dropdown-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 0 5px 10px 0 #d3cfc9;
+    width: 250px;
+    display: none;
+    position: absolute;
+    top: 25px;
+    right: 5px;
+  }
+  
+  .dropdown-menu li {
+    padding: 10px 0;
+  }
+  
+  .dropdown-link {
+    position: relative;
+  }
+  
+  .dropdown-link:hover .dropdown-menu {
+    display: flex;
+  }
+  
+
+  
+  .intro-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 120px 250px;
+  }
+  
+  .intro-section img {
+    width: 40px;
+    height: 39px;
+  }
+  
+  .intro-section div {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .intro-section p {
+    padding: 10px;
+    line-height: 1.75;
+    font-weight: 400;
+  }
+  
+  
+  
+  .services-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 250px;
+  }
+  
+  .for-patients {
+    background: #00b39b;
+    color: #fff;
+    border-radius: 10px;
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    position: relative;
+    height: 350px;
+    overflow: hidden;
+  }
+  
+  .for-doctors {
+    background: #3d83df;
+    color: #fff;
+    border-radius: 10px;
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .services-section span {
+    font-size: 0.875em;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.7);
+  }
+  
+  .services-section h2 {
+    font-size: 1.625em;
+    color: #fff;
+    margin-top: 0.3em;
+    font-weight: 100;
+  }
+  
+  .services-section select {
+    border: none;
+    padding: 10px;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 12px;
+  }
+  
+  .services-section img {
+    position: absolute;
+    width: 400px;
+    height: 250px;
+    bottom: 0;
+    left: 200px;
+  }
+  
+ 
+  .services-company {
+    display:flex;
+    flex-direction: row;
+    margin: 50px 100px;
+    
+  }
+  .services-company ul {
+    display: flex;
+    justify-content: space-between;
+  flex-wrap: wrap;
+  float: left;
+      font-size: 0px;
+      width: 67%;
+      list-style: none;
+  }
+  .services-company ul li {
+    padding: 0 5px;
+  }
+  .services-company a svg {
+    height: 20px;
+    width: auto;
+    
+    margin: 30px 5px;
+    zoom: 1;
+      max-width: 1015px;
+      padding: 0px 5px;
+  
+      fill: #ababab;
+    
+  }
+  .services-company a svg:hover {
+    fill: #00b39b;
+  }
+  
+  .services-healthcare {
+    display:flex;
+    flex-direction: row;
+    background: #c0e9ee;
+    position: relative;
+    overflow: hidden;
+  }
+  .backgroundimg {
+    position: absolute;
+    width :456; 
+    height:435;
+    right: 67%;
+      top: 45%;
+  }
+  .services-healthcare div {
+    display: flex;
+    flex-direction: column;
+    margin: 12px 25px;
+  }
+  .displaydiv {
+    display: flex;
+    flex-direction: column;
+    margin: 12px 25px;
+  }
+  .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+      height: 220px;
+      width: 220px;
+      text-align: center;
+      padding: 10px;
+      font-size: .8125em;
+  }
+  .card h3{
+    color: #00b39b;
+    font-size: 1.7em;
+  }
+  .card img {
+    height: 40px;
+    width: 40px;
+  
+  }
+  .transforme{
+    transform: translate(0, 22px);
+  }
+
+  .services-lives{
+    max-width: 460px;
+    margin: 0 auto 4.1875rem;
+    font-size: .875em;
+    text-align: center;
+  
+  }
+  .services-lives h1 {
+    color: #00b39b;
+    font-size: 2.1428571429em;
+  }
+  .services-lives p {
+    line-height: 1.75;
+  }
+ 
+  .services-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .displaycard{
+    display: flex;
+    justify-content: space-between;
+  }
+  .stylecard:hover{
+    box-shadow: rgba(0, 0, 0, 0.13) 0px 20px 50px 
+  }
+  .displaycard a {
+   text-decoration: none;
+  }
+  .services-card img {
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  .stylecard{
+    border-radius: 5px;
+    margin: 10px 10px;
+    border: solid 3px #faf3f3;
+  
+  }
+  .displaydivcard{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 1.125em;
+    font-weight: 400;
+    line-height: 1.66667;
+    padding: 1.11111em; 
+  }
+  .btn{
+    font-size: 0.625rem;
+    padding: 1em 1.5em;
+    background: rgb(61, 131, 223);
+    border-radius: 5px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1em;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-align: center;
+    border: 0px;
+      text-transform: uppercase;
+      transition: all 0.2s ease 0s;
+  }
+  
+  .main-footer{
+    margin-top: 40px;
+    border-top: 1px solid #eef2f2;
+    font-size: .75em;
+      color: #ababab;
+      text-align: center;
+      font-weight: 500;
+      font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+      padding: 1em 0;
+      
+  }
+  .main-footer p a {
+    text-decoration: none;
+    color:blue;}
